@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="BookmarkManager">
-    <bookmark url="file://$PROJECT_DIR$/flaskr/views.py" line="72" mnemonic="3" />
+    <bookmark url="file://$PROJECT_DIR$/flaskr/views.py" line="73" mnemonic="3" />
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0174314c-680b-49ec-b432-0e5cafeb971c" name="Default Changelist" comment="">
@@ -61,12 +61,12 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="py" value="2235" />
+          <entry key="py" value="2335" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="Python" value="2235" />
+          <entry key="Python" value="2335" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -101,7 +101,7 @@
         <entry file="file://$PROJECT_DIR$/flaskr/models.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="233">
-              <caret line="28" column="23" lean-forward="true" selection-start-line="28" selection-start-column="23" selection-end-line="28" selection-end-column="23" />
+              <caret line="28" column="23" selection-start-line="28" selection-start-column="23" selection-end-line="28" selection-end-column="23" />
               <folding>
                 <element signature="e#0#21#0" expanded="true" />
                 <marker date="1544578960481" expanded="true" signature="524:546" ph="..." />
@@ -113,15 +113,15 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/flaskr/views.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="542">
-              <caret line="81" column="20" lean-forward="true" selection-start-line="81" selection-start-column="20" selection-end-line="81" selection-end-column="20" />
+            <state relative-caret-position="498">
+              <caret line="85" column="41" selection-start-line="85" selection-start-column="41" selection-end-line="85" selection-end-column="41" />
               <folding>
                 <element signature="e#18#115#0" expanded="true" />
-                <marker date="1544660546130" expanded="true" signature="409:825" ph="..." />
-                <marker date="1544660546130" expanded="true" signature="425:461" ph="..." />
-                <marker date="1544660546130" expanded="true" signature="1768:1769" ph="..." />
-                <marker date="1544660546130" expanded="true" signature="1769:1770" ph="..." />
-                <marker date="1544660546130" expanded="true" signature="1797:1799" ph="..." />
+                <marker date="1544660876499" expanded="true" signature="439:855" ph="..." />
+                <marker date="1544660876499" expanded="true" signature="455:491" ph="..." />
+                <marker date="1544660876499" expanded="true" signature="1798:1799" ph="..." />
+                <marker date="1544660876499" expanded="true" signature="1799:1800" ph="..." />
+                <marker date="1544660876499" expanded="true" signature="1827:1829" ph="..." />
               </folding>
             </state>
           </provider>
@@ -130,12 +130,12 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/analysis.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="281">
-              <caret line="67" column="129" selection-start-line="67" selection-start-column="129" selection-end-line="67" selection-end-column="129" />
+            <state relative-caret-position="-867">
+              <caret line="14" column="33" selection-start-line="14" selection-start-column="33" selection-end-line="14" selection-end-column="33" />
               <folding>
                 <element signature="e#0#23#0" expanded="true" />
-                <marker date="1544660602578" expanded="true" signature="88:230" ph="..." />
-                <marker date="1544660602578" expanded="true" signature="263:272" ph="..." />
+                <marker date="1544660863938" expanded="true" signature="94:258" ph="..." />
+                <marker date="1544660863938" expanded="true" signature="288:291" ph="..." />
               </folding>
             </state>
           </provider>
@@ -195,8 +195,8 @@
         <option value="$PROJECT_DIR$/flaskr/test_rest.py" />
         <option value="$PROJECT_DIR$/flaskr/models.py" />
         <option value="$PROJECT_DIR$/flaskr/uploads/New Text Document.txt" />
-        <option value="$PROJECT_DIR$/flaskr/views.py" />
         <option value="$PROJECT_DIR$/analysis.py" />
+        <option value="$PROJECT_DIR$/flaskr/views.py" />
       </list>
     </option>
   </component>
@@ -291,15 +291,15 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1696" height="1026" extended-state="6" />
+    <frame x="-7" y="0" width="854" height="1017" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.04645477" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.105793454" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.33260393" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.16349384" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.16515838" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.3954496" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -357,7 +357,7 @@
     <entry file="file://$PROJECT_DIR$/flaskr/models.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="233">
-          <caret line="28" column="23" lean-forward="true" selection-start-line="28" selection-start-column="23" selection-end-line="28" selection-end-column="23" />
+          <caret line="28" column="23" selection-start-line="28" selection-start-column="23" selection-end-line="28" selection-end-column="23" />
           <folding>
             <element signature="e#0#21#0" expanded="true" />
             <marker date="1544578960481" expanded="true" signature="524:546" ph="..." />
@@ -367,27 +367,27 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/flaskr/views.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="542">
-          <caret line="81" column="20" lean-forward="true" selection-start-line="81" selection-start-column="20" selection-end-line="81" selection-end-column="20" />
+        <state relative-caret-position="498">
+          <caret line="85" column="41" selection-start-line="85" selection-start-column="41" selection-end-line="85" selection-end-column="41" />
           <folding>
             <element signature="e#18#115#0" expanded="true" />
-            <marker date="1544660546130" expanded="true" signature="409:825" ph="..." />
-            <marker date="1544660546130" expanded="true" signature="425:461" ph="..." />
-            <marker date="1544660546130" expanded="true" signature="1768:1769" ph="..." />
-            <marker date="1544660546130" expanded="true" signature="1769:1770" ph="..." />
-            <marker date="1544660546130" expanded="true" signature="1797:1799" ph="..." />
+            <marker date="1544660876499" expanded="true" signature="439:855" ph="..." />
+            <marker date="1544660876499" expanded="true" signature="455:491" ph="..." />
+            <marker date="1544660876499" expanded="true" signature="1798:1799" ph="..." />
+            <marker date="1544660876499" expanded="true" signature="1799:1800" ph="..." />
+            <marker date="1544660876499" expanded="true" signature="1827:1829" ph="..." />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/analysis.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="281">
-          <caret line="67" column="129" selection-start-line="67" selection-start-column="129" selection-end-line="67" selection-end-column="129" />
+        <state relative-caret-position="-867">
+          <caret line="14" column="33" selection-start-line="14" selection-start-column="33" selection-end-line="14" selection-end-column="33" />
           <folding>
             <element signature="e#0#23#0" expanded="true" />
-            <marker date="1544660602578" expanded="true" signature="88:230" ph="..." />
-            <marker date="1544660602578" expanded="true" signature="263:272" ph="..." />
+            <marker date="1544660863938" expanded="true" signature="94:258" ph="..." />
+            <marker date="1544660863938" expanded="true" signature="288:291" ph="..." />
           </folding>
         </state>
       </provider>

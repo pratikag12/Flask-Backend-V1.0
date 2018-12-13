@@ -5,6 +5,7 @@ from flaskr.models import SoundData
 from flaskr import db
 import os
 import flaskr.test_rest as tests
+from analysis import CNNModel
 
 sound_api_Blueprint = Blueprint('sound_api', __name__)
 api = Api(sound_api_Blueprint) #Create Flask Api
@@ -79,10 +80,9 @@ class analyze_sound_file(Resource):
 			sound_file = soundmetadat.file_uri.replace("dat", "npy")
 			path = os.path.join(os.path.dirname(os.path.abspath(__file__)), 'mldata') #Check if file exist
 			if(os.path.exists(os.path.join(path, sound_file))):
-				pass
+				ml = CNNModel()
+				result = ml.runanalysis(os.path.join(path, sound_file))
 				#Perform analysis
-
-		os.path.dirname(os.path.abspath(__file__)).
 		return jsonify({'result':result})
 
 #Flask-Restful Api add URL Redirect
