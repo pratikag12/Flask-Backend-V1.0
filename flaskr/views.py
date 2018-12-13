@@ -73,10 +73,15 @@ class sound_file(Resource):
 #Analysis API's
 class analyze_sound_file(Resource):
 	def get(self, id):
-		#get sound file uri
-		#send data to ml function
-		#when processing is finished return
-		result = 1
+		result = 2 #Indicates file does not exist
+		soundmetadat = SoundData.query.get_or_404(id) #get sound file from database
+		if soundmetadat:
+			sound_file = soundmetadat.file_uri.replace("dat", "npy")
+			path = os.path.join(os.path.dirname(os.path.abspath(__file__)), 'mldata') #Check if file exist
+			if(os.path.exists(os.path.join(path, sound_file))):
+				pass
+				#Perform analysis
+
 		return jsonify({'result':result})
 
 #Flask-Restful Api add URL Redirect
