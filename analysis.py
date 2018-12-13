@@ -65,7 +65,7 @@ class CNNModel(object):
 		with tf.Session(graph=self.graph) as sess:
 			sess.run(tf.global_variables_initializer())
 			#This will load up a saved model which will simply Classify the given data
-			results_path = os.path.join(os.path.dirname(os.path.dirname(os.path.abspath(__file__))), 'ml') #Get trained data info
+			results_path = os.path.join(os.path.dirname(os.path.abspath(__file__)), 'ml') #Get trained data info
 			tstart = datetime.datetime.now()
 			saver.restore(sess, save_path=tf.train.latest_checkpoint(results_path))
 			labelPH = [[0., 1.]]
