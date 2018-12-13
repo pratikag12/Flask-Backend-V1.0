@@ -10,7 +10,7 @@ class CNNModel(object):
 
 	def runanalysis(self, path):
 		(prediction, runtime) =  self.classify(self.loadnpy(path))
-		return prediction[0]
+		return prediction[0][0]
 
 	def loadnpy(self, pathToNpy):
 		return np.load(pathToNpy)
