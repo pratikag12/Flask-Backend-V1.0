@@ -16,7 +16,6 @@ class CNNModel():
         return np.load(pathToNpy)
 
     def classify(self, dataToClassify):
-
         HeartDATA = dataToClassify[:].reshape(1, -1, 10).mean(axis=2)
         HeartDATA = HeartDATA.reshape(1, 400, 1)
 
@@ -66,8 +65,7 @@ class CNNModel():
         with tf.Session(graph=self.graph) as sess:
             sess.run(tf.global_variables_initializer())
             #This will load up a saved model which will simply Classify the given data
-            results_path = '/home/zain/PycharmProjects/StethPy/Results/2018-06-21 02:49:30.196622_LR:0.001_Epochs:600_1D-CNN/SavedModel/'
-
+            results_path = os.path.join(os.path.dirname(os.path.dirname(os.path.abspath(__file__))), 'ml') #Get trained data info
             tstart = datetime.datetime.now()
             saver.restore(sess, save_path=tf.train.latest_checkpoint(results_path))
             labelPH = [[0., 1.]]
@@ -78,5 +76,4 @@ class CNNModel():
             prediction, acc = sess.run([logits, accuracy], feed_dict=feed)
             prediction = (prediction>0).astype(float)
             tend = datetime.datetime.now()
-            print 'Predicted Class:', prediction
-            print 'Feedforeward Time in microseconds:', (tend-tstart).microseconds
+            return (prediction, (tend-tstart).microseconds)

@@ -82,6 +82,7 @@ class analyze_sound_file(Resource):
 				pass
 				#Perform analysis
 
+		os.path.dirname(os.path.abspath(__file__)).
 		return jsonify({'result':result})
 
 #Flask-Restful Api add URL Redirect
